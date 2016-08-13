@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rightPadding" format="dimension" />
+
+    <declare-styleable name="RoundImageView">
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <string-array name="pick_photo">
+        <item>相机</item>
+        <item>相册</item>
+    </string-array>
+
+    <string-array name="crop_photo">
+        <item>应用裁剪（推荐）</item>
+        <item>内置裁剪</item>
+    </string-array>
+
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" />
+    </declare-styleable>
+
+    <string-array name="time_pattern">
+        <item>刚刚</item>
+        <item>%s分钟前</item>
+        <item>%s小时前</item>
+        <item>昨天</item>
+        <item>前天</item>
+        <item>yyyy年M月d日|aa|hh:mm</item>
+        <item>凌晨</item>
+        <item>清晨</item>
+        <item>上午</item>
+        <item>中午</item>
+        <item>下午</item>
+        <item>傍晚</item>
+        <item>晚上</item>
+    </string-array>
+
+    <!-- 拍照 -->
+    <string-array name="photo_tips">
+        <item >拍照</item>
+        <item >相册</item>
+    </string-array>
+</resources>
